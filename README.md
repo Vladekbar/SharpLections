@@ -23,7 +23,7 @@
 * git branch -M main
 * git push -u origin main
 8. Обновите страницу репозитория https://github.com/Vladekbar/SharpLections.git на GitHub.
-9. GitHub "подтянул нашу папку Example001_HelloConsole, вместе с находящимися в ней подпапками и конфигурационными файлами, 
+9. GitHub "подтянул" нашу папку Example001_HelloConsole, вместе с находящимися в ней подпапками и конфигурационными файлами, 
 а также с комментарием к коммиту "add Example 001 Hello Console project".
 
 Идем дальше. Будем учиться создавать новые папки рядом, и красиво добавлять их в уже в репозиторий SharpLections, которые уже имеет одну нашу папку.
