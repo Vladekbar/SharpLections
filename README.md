@@ -3,25 +3,26 @@
 1. Создайте папку Examples.
 2. Запускаем с нее терминал (Ctrl +`), инитим **git init*.
 3. В рамках папки Examples создаем новую папку Example001_HelloConsole
-4. Запускаем втроенный терминал с папки Example001_HelloConsole
+4. Запускаем встроенный терминал с папки Example001_HelloConsole
 5. Сбоку, на панели терминалов, отобразится новый терминал, ниже того, который был для корневой папки Examples.
 6. Во вcтроенном терминале для папки Example001_HelloConsole вводим команду dotnet console.
 7. Таким образом, внутри папки Example001_HelloConsole будут созданы несколько подпапок и конфигурационых файлов.
 8. Среди этих конфигурационых файлов находится Program.cs - перейдем на него.
-9. Измение файл, дополните кодом или оставьте одну строку Console.WriteLine("Hello, World!");
+9. Измение файл, дополните кодом или оставим одну строку Console.WriteLine("Hello, World!");
 10. Запустите команду **dotnet run**. Терминал выдаст *Hello, World*.
 **Запушим изменения на GitHub**.
 Порядок действий:
 1. Перейдем на терминал основной папки Examples (верхний, см. п.5 выше).
 2. Добавим папку Example001_HelloConsole в отслеживаемые. **git add Example001_HelloConsole**
 3. Коммитим с комментарием. **git commit --m "add Example 001 Hello Console project"**.
-4. Создайте новый репозиторий *без ридми* на GitHub c названием, скажем, SharpLections.
+4. Создаем новый репозиторий *без ридми* на GitHub c названием, скажем, SharpLections.
 5. Скопируем ссылку на репозиторий, в моем случае, это <https://github.com/Vladekbar/SharpLections.git>.
 6. Вернемся снова в терминал, где мы делали инит, эдд, коммит - то есть в "верхний" терминал папки Examples.
 7. Выполняем поочередно действия:
 * git remote add origin https://github.com/Vladekbar/SharpLections.git
 * git branch -M main
 * git push -u origin main
+* **можно сразу три эти команды скопировать и вставить в терминал, нажать Enter**
 8. Обновите страницу репозитория https://github.com/Vladekbar/SharpLections.git на GitHub.
 9. GitHub "подтянул" нашу папку Example001_HelloConsole, вместе с находящимися в ней подпапками и конфигурационными файлами, 
 а также с комментарием к коммиту "add Example 001 Hello Console project".
