@@ -23,7 +23,7 @@
 * git branch -M main
 * git push -u origin main
 * **можно сразу три эти команды скопировать и вставить в терминал, нажать Enter**
-8. Обновите страницу репозитория https://github.com/Vladekbar/SharpLections.git на GitHub.
+8. Обновим страницу репозитория https://github.com/Vladekbar/SharpLections.git на GitHub.
 9. GitHub "подтянул" нашу папку Example001_HelloConsole, вместе с находящимися в ней подпапками и конфигурационными файлами, 
 а также с комментарием к коммиту "add Example 001 Hello Console project".
 
